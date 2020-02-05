@@ -4,8 +4,7 @@ public class ConcreteClass extends AbstractClass{
 	private int j;
 	
 	public ConcreteClass(int i, int j) {
-		super.i=i;
-		
+		super(i);		
 		this.j = j;
 	}
 	
